@@ -1,6 +1,6 @@
-# Article Generator Chatbot (Local LLMs + Auto-Evaluation)
+# Article Generator Chatbot (Local LLMs & Auto-Evaluation)
 
-A **Streamlit-based chatbot** that uses local open-source LLMs (Mistral, Gemma, LLaMA2 via Ollama) to generate detailed articles from user-provided topics. It automatically evaluates the output for **fluency, relevance, accuracy**, and **safety**, then recommends the best-performing model.
+A Streamlit-based chatbot that uses local open-source LLMs (Mistral, Gemma, LLaMA2 via Ollama) to generate detailed articles from user-provided topics. It automatically evaluates the output for fluency, relevance, accuracy, and safety, then recommends the best-performing model.
 
 ---
 
