@@ -1,21 +1,21 @@
-# 📰 Article Generator Chatbot (Local LLMs + Auto-Evaluation)
+# Article Generator Chatbot (Local LLMs + Auto-Evaluation)
 
 A **Streamlit-based chatbot** that uses local open-source LLMs (Mistral, Gemma, LLaMA2 via Ollama) to generate detailed articles from user-provided topics. It automatically evaluates the output for **fluency, relevance, accuracy**, and **safety**, then recommends the best-performing model.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔁 **Parallel generation** using 3 local LLMs
-- 📊 **Auto-evaluation** with metrics scaled 1–5
-- 🧠 Models compared: `mistral`, `gemma`, `llama2`
-- 🏆 **Best model recommendation**
-- 🧾 **Full chat history** with expandable article views
-- 💡 Built with **Streamlit**, **Ollama**, and **sklearn**
+-  Parallel generation using 3 local LLMs
+-  Auto-evaluation with metrics scaled 1–5
+- Models compared: `mistral`, `gemma`, `llama2`
+- Best model recommendation
+- Full chat history with expandable article views
+- Built with Streamlit, Ollama, and sklearn
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repo
 ```bash
@@ -54,11 +54,11 @@ ollama pull gemma
 ollama pull llama2
 ```
 
-> 🧠 These models are run **locally** using your machine's resources. Ensure you have enough RAM (ideally 8GB+ per model).
+>  These models are run **locally** using your machine's resources. Ensure you have enough RAM (ideally 8GB+ per model).
 
 ---
 
-## ▶️ Run the App
+##  Run the App
 
 Start the Streamlit app:
 
@@ -68,17 +68,7 @@ streamlit run app.py
 
 ---
 
-## ✨ Example Screenshot
-
-> _Add your own screenshot here if needed:_
-
-```
-📸 ![screenshot](screenshot.png)
-```
-
----
-
-## 📂 File Structure
+##  File Structure
 
 ```
 ├── app.py                  # Main Streamlit application
@@ -88,7 +78,7 @@ streamlit run app.py
 
 ---
 
-## 📋 Evaluation Metrics (Auto-Scored 1–5)
+##  Evaluation Metrics (Auto-Scored 1–5)
 
 | Metric    | Description                                       |
 |-----------|---------------------------------------------------|
@@ -99,13 +89,13 @@ streamlit run app.py
 
 ---
 
-## 📜 License
+##  License
 
 MIT License. Feel free to fork, improve, and use!
 
 ---
 
-## 🙌 Credits
+##  Credits
 
 - [Ollama](https://ollama.com/) for local model support  
 - Streamlit for the clean and easy UI  
